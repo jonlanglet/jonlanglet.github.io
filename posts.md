@@ -1,7 +1,5 @@
 ---
 layout: home
-title: Home
+title: Posts
+permalink: /posts/
 ---
-![image tooltip here](/assets/portrait.jpg)
-<hr>
-Text goes here
