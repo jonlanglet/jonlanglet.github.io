@@ -1,27 +1,6 @@
 {% if site.data.publications %}
-<table id="publications">
-    {% assign pub = site.data.publications %}
-    {% for entry in pub %}
-        {% assign key = entry | first %}
-        {% if pub[key].title %}
-			<tr>
-				<th>
-					{{ pub[key].title }}
-				</th>
-				<th>
-					{{ pub[key].authors }}
-				</th>
-				<th>
-					{{ pub[key].year }}
-				</th>
-            </tr>
-        {% endif %}
-    {% endfor %}
-</table>
-{% endif %}
-
-{% if site.data.publications %}
 {% assign pub = site.data.publications %}
+## List of works
 <table>
 	<colgroup>
 		<col width="15%" />
