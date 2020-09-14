@@ -5,12 +5,10 @@
     {% for entry in pubs %}
 		test1
         {% assign key = entry | first %}
-        {% if sm[key].title %}
-			test2
-            {{ sm[key].title }}
-            {{ sm[key].authors }}
-            {{ sm[key].year }}
-        {% endif %}
+		test2
+		{{ sm[key].title }}
+		{{ sm[key].authors }}
+		{{ sm[key].year }}
     {% endfor %}
 </div>
 {% endif %}
