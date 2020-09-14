@@ -2,13 +2,16 @@
   title: 'Towards Machine Learning Inference in the Data Plane'
   authors: 'J Langlet'
   year: '2019'
+  url: 'google.com'
 
 2:
   title: 'Towards neural network inference on programmable switches'
   authors: 'J Langlet, A Kassler, D Bhamare'
   year: '2019'
+  url: 'google.com'
 
 3:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
   authors: 'J Langlet'
   year: '2020'
+  url: 'google.com'

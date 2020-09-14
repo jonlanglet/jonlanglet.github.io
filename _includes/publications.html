@@ -11,3 +11,21 @@
     {% endfor %}
 </div>
 {% endif %}
+
+{% if site.data.publications %}
+<div class="catalogue">
+	{% assign pub = site.data.publications %}
+	{% for entry in pub %}
+		{% assign key = entry | first %}
+		{% if pub[key].title %}
+		
+			<a href="{{ pub[key].url }}" class="catalogue-item">
+			  <div>
+				<time datetime="{{ pub[key].year }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+				<h1 class="catalogue-title">{{ pub[key].title }}</h1>
+				<div class="catalogue-line"></div>
+			  </div>
+			</a>
+	{% endfor %}
+</div>
+{% endif %}
