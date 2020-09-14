@@ -26,12 +26,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-#<<<<<<< HEAD
 #theme: minima
 remote_theme: remote_theme: mmistakes/minimal-mistakes
-#=======
-theme: jekyll-theme-slate
-#>>>>>>> 445a576d6a73f7037abdd446a8214ed349027ca4
 plugins:
   - jekyll-feed
 
