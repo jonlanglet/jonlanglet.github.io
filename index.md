@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Home
 ---
 ![image tooltip here](/assets/portrait.jpg)
