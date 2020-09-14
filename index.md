@@ -7,7 +7,7 @@ title: Home
 	<div class="col" style="width: 40%; float: left;">
 		<img src="/assets/portrait.jpg">
 	</div>
-	<div class="col" style="margin-left: width: 60%;">
+	<div class="col" style="margin-left: width: 60%; padding: 16px 24px;">
 		<p>
 			<h2>Queen Mary University of London</h2>
 			<h3>Networks group</h3>
