@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<div>
+<div markdown="1">
 ![image](/assets/portrait.jpg){: style="float: left"}
 
 ## Queen Mary University of London, Networks group
