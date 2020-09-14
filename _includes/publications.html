@@ -1,32 +1,21 @@
 {% if site.data.publications %}
-<div id="publications">
+<table id="publications">
     {% assign pub = site.data.publications %}
     {% for entry in pub %}
         {% assign key = entry | first %}
         {% if pub[key].title %}
-            {{ pub[key].title }}
-            {{ pub[key].authors }}
-            {{ pub[key].year }}
+			<tr>
+				<th>
+					{{ pub[key].title }}
+				</th>
+				<th>
+					{{ pub[key].authors }}
+				</th>
+				<th>
+					{{ pub[key].year }}
+				</th>
+            </tr>
         {% endif %}
     {% endfor %}
-</div>
-{% endif %}
-
-{% if site.data.publications %}
-<div class="catalogue">
-	{% assign pub = site.data.publications %}
-	{% for entry in pub %}
-		{% assign key = entry | first %}
-		{% if pub[key].title %}
-		
-			<a href="{{ pub[key].url }}" class="catalogue-item">
-			  <div>
-				<time datetime="{{ pub[key].year }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-				<h1 class="catalogue-title">{{ pub[key].title }}</h1>
-				<div class="catalogue-line"></div>
-			  </div>
-			</a>
-		{% endif %}
-	{% endfor %}
-</div>
+</table>
 {% endif %}
