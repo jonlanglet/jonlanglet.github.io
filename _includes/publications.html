@@ -21,30 +21,30 @@
 {% endif %}
 
 {% if site.data.publications %}
-	{% assign pub = site.data.publications %}
-	<table>
-		<colgroup>
-			<col width="30%" />
-			<col width="70%" />
-		</colgroup>
-		<thead>
-			<tr class="header">
-				<th>Year</th>
-				<th>Title</th>
-				<th>Authors</th>
-			</tr>
-		</thead>
-		<tbody>
-			{% for entry in pub %}
-				{% assign key = entry | first %}
-				{% if pub[key].title %}
-					<tr>
-						<td markdown="span">{{ pub[key].year }}</td>
-						<td markdown="span">{{ pub[key].title }}</td>
-						<td markdown="span">{{ pub[key].authors }}</td>
-					</tr>
-				{% endif %}
-			{% endfor %}
-		</tbody>
-	</table>
+{% assign pub = site.data.publications %}
+<table>
+	<colgroup>
+		<col width="30%" />
+		<col width="70%" />
+	</colgroup>
+	<thead>
+		<tr class="header">
+			<th>Year</th>
+			<th>Title</th>
+			<th>Authors</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for entry in pub %}
+			{% assign key = entry | first %}
+			{% if pub[key].title %}
+				<tr>
+					<td markdown="span">{{ pub[key].year }}</td>
+					<td markdown="span">{{ pub[key].title }}</td>
+					<td markdown="span">{{ pub[key].authors }}</td>
+				</tr>
+			{% endif %}
+		{% endfor %}
+	</tbody>
+</table>
 {% endif %}
