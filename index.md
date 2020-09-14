@@ -12,13 +12,12 @@ title: Home
 			<h2>Queen Mary University of London</h2>
 			<h3>Networks group</h3>
 		</p>
+		<p>
+{% include social-media-links.html %}
+		</p>
 	</div>
 </div>
 
-
-
-
-{% include social-media-links.html %}
 <hr>
 {% include about.html %}
 <hr>
