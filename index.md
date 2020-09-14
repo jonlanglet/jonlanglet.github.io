@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-<div class="row" style="width: 100%; overflow: hidden;">
-	<div class="col" style="width: 40%; float: left;">
+<div class="row" style="border: 3px solid #fff; padding: 20px;">
+	<div class="col" style="width: 50%; float: left; padding: 20px; border: 2px solid red;">
 		<img src="/assets/portrait.jpg">
 	</div>
-	<div class="col" style="margin-left: width: 60%; padding: 16px 24px;">
+	<div class="col" style="width: 50%; float: left; padding: 20px; border: 2px solid red;">
 		<p>
 			<h2>Queen Mary University of London</h2>
 			<h3>Networks group</h3>
