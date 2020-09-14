@@ -2,14 +2,10 @@
 layout: default
 title: Home
 ---
-<div class="row">
-	<div class="column">
-		<img src="/assets/portrait.jpg"/>
-	</div>
-	<div class="column">
-		Queen Mary University of London, Networks group
-	</div>
-</div>
+![image](/assets/portrait.jpg){: style="float: left"}
+
+Queen Mary University of London, Networks group
+
 {% include social-media-links.html %}
 <hr>
 {% include about.html %}
