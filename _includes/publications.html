@@ -3,7 +3,7 @@
     {% assign pubs = site.data.publications %}
     {% for entry in pubs %}
         {% assign key = entry | first %}
-        {% if sm[key].id %}
+        {% if sm[key].title %}
             {{ sm[key].title }}
             {{ sm[key].authors }}
             {{ sm[key].year }}
