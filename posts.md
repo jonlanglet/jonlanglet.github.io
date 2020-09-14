@@ -12,9 +12,8 @@ permalink: /posts/
   {% endfor %}
 </ul>
 
-
 <div class="catalogue">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
@@ -29,6 +28,7 @@ permalink: /posts/
     </a>
   {% endfor %}
 </div>
+
 
 <div class="pagination">
   {% if paginator.previous_page %}
