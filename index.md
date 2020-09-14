@@ -4,7 +4,7 @@ title: Home
 ---
 <div class="row">
   <div class="column">
-    ![image tooltip here](/assets/portrait.jpg)
+![image tooltip here](/assets/portrait.jpg)
   </div>
   <div class="column">
     Queen Mary University of London, Networks group
