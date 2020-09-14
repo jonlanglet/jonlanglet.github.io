@@ -1,0 +1,13 @@
+{% if site.data.publications %}
+<div id="publications">
+    {% assign pubs = site.data.publications %}
+    {% for entry in pubs %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            {{ sm[key].title }}
+            {{ sm[key].author }}
+            {{ sm[key].year }}
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

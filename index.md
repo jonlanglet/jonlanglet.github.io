@@ -6,3 +6,5 @@ title: Home
 {% include social-media-links.html %}
 <hr>
 {% include about.html %}
+<hr>
+{% include publications.html %}
