@@ -1,14 +1,13 @@
 {% if site.data.publications %}
 <div id="publications">
-	test
-    {% assign pubs = site.data.publications %}
-    {% for entry in pubs %}
-		test1
+    {% assign pub = site.data.publications %}
+    {% for entry in pub %}
         {% assign key = entry | first %}
-		test2
-		{{ sm[key].title }}
-		{{ sm[key].authors }}
-		{{ sm[key].year }}
+        {% if pub[key].title %}
+            {{ pub[key].title }}
+            {{ pub[key].authors }}
+            {{ pub[key].year }}
+        {% endif %}
     {% endfor %}
 </div>
 {% endif %}
