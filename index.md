@@ -8,7 +8,10 @@ title: Home
 		<img src="/assets/portrait.jpg">
 	</div>
 	<div class="col" style="margin-left: width: 60%;">
-		<h2>Queen Mary University of London, Networks group</h2>
+		<p>
+			<h2>Queen Mary University of London</h2>
+			<h3>Networks group</h3>
+		</p>
 	</div>
 </div>
 
