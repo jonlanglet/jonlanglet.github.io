@@ -2,11 +2,15 @@
 layout: default
 title: Home
 ---
-<div markdown="1">
-![image](/assets/portrait.jpg){: style="float: left"}
-
+<div class="row" markdown="1">
+	<div class="col">
+		<img src="/assets/portrait.jpg">
+	</div>
+	<div class="col">
 ## Queen Mary University of London, Networks group
+	</div>
 </div>
+
 {% include social-media-links.html %}
 <hr>
 {% include about.html %}
