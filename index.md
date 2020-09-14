@@ -5,4 +5,4 @@ title: Home
 ![image tooltip here](/assets/portrait.jpg)
 {% include social-media-links.html %}
 <hr>
-Text goes here
+{% include about.html %}
