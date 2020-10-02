@@ -22,7 +22,7 @@ linkedin:
   title: 'LinkedIn'
   fa-icon: 'fa-linkedin'
 
-linkedin:
+twitter:
   id: 'JonatanLanglet'
   href: 'https://twitter.com/'
   title: 'Twitter'
