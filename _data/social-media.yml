@@ -21,3 +21,10 @@ linkedin:
   href: 'https://www.linkedin.com/in/'
   title: 'LinkedIn'
   fa-icon: 'fa-linkedin'
+
+linkedin:
+  id: 'JonatanLanglet'
+  href: 'https://twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter'
+  
