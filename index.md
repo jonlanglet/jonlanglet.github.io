@@ -6,3 +6,5 @@ title: Home
 {% include about.html %}
 <hr>
 {% include publications.html %}
+<hr>
+{% include teaching.html %}

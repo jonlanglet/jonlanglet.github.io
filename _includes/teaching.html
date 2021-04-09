@@ -1,0 +1,33 @@
+{% if site.data.teaching %}
+{% assign teaching = site.data.teaching %}
+## Teaching
+<table>
+	<colgroup>
+		<col width="15%" />
+		<col width="15%" />
+		<col width="50%" />
+		<col width="20%" />
+	</colgroup>
+	<thead>
+		<tr class="header">
+			<th>Year</th>
+			<th>Position</th>
+			<th>Course</th>
+			<th>University</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for entry in teaching %}
+			{% assign key = entry | first %}
+			{% if teaching[key].course %}
+				<tr>
+					<td markdown="span">{{ pub[key].year }}</td>
+					<td markdown="span">{{ pub[key].pos }}</td>
+					<td markdown="span">{{ pub[key].course }}</td>
+					<td markdown="span">{{ pub[key].uni }}</td>
+				</tr>
+			{% endif %}
+		{% endfor %}
+	</tbody>
+</table>
+{% endif %}
