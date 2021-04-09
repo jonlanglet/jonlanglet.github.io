@@ -21,10 +21,10 @@
 			{% assign key = entry | first %}
 			{% if teaching[key].course %}
 				<tr>
-					<td markdown="span">{{ pub[key].year }}</td>
-					<td markdown="span">{{ pub[key].pos }}</td>
-					<td markdown="span">{{ pub[key].course }}</td>
-					<td markdown="span">{{ pub[key].uni }}</td>
+					<td markdown="span">{{ teaching[key].year }}</td>
+					<td markdown="span">{{ teaching[key].pos }}</td>
+					<td markdown="span">{{ teaching[key].course }}</td>
+					<td markdown="span">{{ teaching[key].uni }}</td>
 				</tr>
 			{% endif %}
 		{% endfor %}
