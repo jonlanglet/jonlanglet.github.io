@@ -3,25 +3,25 @@
   authors: 'J. Langlet, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2021'
   url: 'google.com'
-  conf: 'HotNets'
+  conf: "HotNets"
 
 2:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
   authors: 'J. Langlet'
   year: '2020'
   url: 'google.com'
-  conf: 'Master\'s Thesis'
+  conf: "Master's Thesis"
   
 3:
   title: 'Towards Neural Network Inference on Programmable Switches'
   authors: 'J. Langlet, A. Kassler, D. Bhamare'
   year: '2019'
   url: 'google.com'
-  conf: 'EuroP4'
+  conf: "EuroP4"
 
 4:
   title: 'Towards Machine Learning Inference in the Data Plane'
   authors: 'J. Langlet'
   year: '2019'
   url: 'google.com'
-  conf: 'Bachelor\'s Thesis'
+  conf: "Bachelor\'s Thesis"
