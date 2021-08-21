@@ -21,10 +21,10 @@
 			{% assign key = entry | first %}
 			{% if pub[key].title %}
 				<tr>
-					<td markdown="span">{{ pub[key].year }}</td>
+					<td markdown="span" align=center>{{ pub[key].year }}</td>
 					<td markdown="span">{{ pub[key].title }}</td>
 					<td markdown="span">{{ pub[key].conf }}</td>
-					<td markdown="span">{{ pub[key].authors }}</td>
+					<td markdown="span"><i>{{ pub[key].authors }}</i></td>
 				</tr>
 			{% endif %}
 		{% endfor %}
