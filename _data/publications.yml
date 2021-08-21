@@ -1,17 +1,23 @@
 1:
+  title: 'Zero-CPU Collection with Direct Telemetry Access'
+  authors: 'J. Langlet, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
+  year: '2021'
+  url: 'google.com'
+
+2:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
-  authors: 'J Langlet'
+  authors: 'J. Langlet'
   year: '2020'
   url: 'google.com'
   
-2:
+3:
   title: 'Towards Neural Network Inference on Programmable Switches'
-  authors: 'J Langlet, A Kassler, D Bhamare'
+  authors: 'J. Langlet, A. Kassler, D. Bhamare'
   year: '2019'
   url: 'google.com'
 
-3:
+4:
   title: 'Towards Machine Learning Inference in the Data Plane'
-  authors: 'J Langlet'
+  authors: 'J. Langlet'
   year: '2019'
   url: 'google.com'
