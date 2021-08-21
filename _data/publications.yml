@@ -10,7 +10,7 @@
   authors: 'J. Langlet'
   year: '2020'
   url: 'google.com'
-  conf: "Master's Thesis"
+  conf: "Thesis"
   
 3:
   title: 'Towards Neural Network Inference on Programmable Switches'
@@ -24,4 +24,4 @@
   authors: 'J. Langlet'
   year: '2019'
   url: 'google.com'
-  conf: "Bachelor's Thesis"
+  conf: "Thesis"
