@@ -3,14 +3,16 @@
 ## List of works
 <table>
 	<colgroup>
-		<col width="15%" />
-		<col width="60%" />
+		<col width="10%" />
+		<col width="55%" />
+		<col width="10%" />
 		<col width="25%" />
 	</colgroup>
 	<thead>
 		<tr class="header">
 			<th>Year</th>
 			<th>Title</th>
+			<th>Venue</th>
 			<th>Authors</th>
 		</tr>
 	</thead>
@@ -21,6 +23,7 @@
 				<tr>
 					<td markdown="span">{{ pub[key].year }}</td>
 					<td markdown="span">{{ pub[key].title }}</td>
+					<td markdown="span">{{ pub[key].conf }}</td>
 					<td markdown="span">{{ pub[key].authors }}</td>
 				</tr>
 			{% endif %}
