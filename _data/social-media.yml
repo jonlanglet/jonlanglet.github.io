@@ -27,4 +27,9 @@ twitter:
   href: 'https://twitter.com/'
   title: 'Twitter'
   fa-icon: 'fab fa-twitter-square'
-  
+
+googlescholar:
+  id: 'bABiaVgAAAAJ'
+  href: 'https://scholar.google.se/citations?user='
+  title: 'Google Scholar'
+  fa-icon: 'ai ai-google-scholar-square ai-3x'
