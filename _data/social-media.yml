@@ -4,17 +4,11 @@ email:
   title: 'Email'
   fa-icon: 'fas fa-envelope-square'
 
-facebook:
-  id: 'jonatan.langlet'
-  href: 'https://www.facebook.com/'
-  title: 'Facebook'
-  fa-icon: 'fab fa-facebook-square'
-
-github:
-  id: 'jonlanglet'
-  href: 'https://github.com/'
-  title: 'GitHub'
-  fa-icon: 'fab fa-github-square'
+#facebook:
+#  id: 'jonatan.langlet'
+#  href: 'https://www.facebook.com/'
+#  title: 'Facebook'
+#  fa-icon: 'fab fa-facebook-square'
 
 linkedin:
   id: 'jonatan-langlet-230984197'
@@ -33,3 +27,9 @@ googlescholar:
   href: 'https://scholar.google.se/citations?user='
   title: 'Google Scholar'
   fa-icon: 'ai ai-google-scholar-square ai-3x'
+  
+github:
+  id: 'jonlanglet'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fab fa-github-square'
