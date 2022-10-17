@@ -1,6 +1,6 @@
 1:
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
-  authors: 'S. K. Singh, C. E. Rothenberg, J. Langlet, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
+  authors: 'S. K. Singh, C. E. Rothenberg, <b>J. Langlet</b>, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
   year: '2022'
   url: 'google.com'
   conf: "IEEE Transactions on Mobile Computing"
