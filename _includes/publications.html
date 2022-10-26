@@ -4,16 +4,16 @@
 <div id="div_publications">
 	<table>
 		<colgroup>
+			<col width="15%" style="min-width:100px;"/>
 			<col width="10%" style="min-width:70px;"/>
 			<col width="50%" style="min-width:300px;"/>
-			<col width="15%" style="min-width:100px;"/>
 			<col width="25%" style="min-width:200px;"/>
 		</colgroup>
 		<thead>
 			<tr class="header">
+				<th>Venue</th>
 				<th>Year</th>
 				<th>Title</th>
-				<th>Venue</th>
 				<th>Authors</th>
 			</tr>
 		</thead>
@@ -22,9 +22,9 @@
 				{% assign key = entry | first %}
 				{% if pub[key].title %}
 					<tr>
+						<td markdown="span">{{ pub[key].conf }}</td>
 						<td markdown="span" align=center>{{ pub[key].year }}</td>
 						<td markdown="span">{{ pub[key].title }}</td>
-						<td markdown="span">{{ pub[key].conf }}</td>
 						<td markdown="span"><i>{{ pub[key].authors }}</i></td>
 					</tr>
 				{% endif %}
