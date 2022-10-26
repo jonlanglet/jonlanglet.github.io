@@ -5,5 +5,28 @@
 @import 'tale';
 
 .inner {
-  max-width: 75%;
+	max-width: 75%;
+}
+
+#div_head {
+	width: 100;
+}
+#div_head_picture {
+	width: 25%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#div_head_text {
+	width: 70%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+
+	#div_head_picture,
+	#div_head_text {
+		width: 70%;
+	}
 }
