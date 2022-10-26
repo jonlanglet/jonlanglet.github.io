@@ -1,33 +1,35 @@
 {% if site.data.teaching %}
 {% assign teaching = site.data.teaching %}
 ## Teaching
-<table>
-	<colgroup>
-		<col width="10%" />
-		<col width="10%" />
-		<col width="40%" />
-		<col width="40%" />
-	</colgroup>
-	<thead>
-		<tr class="header">
-			<th>Year</th>
-			<th>Position</th>
-			<th>Course</th>
-			<th>University</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for entry in teaching %}
-			{% assign key = entry | first %}
-			{% if teaching[key].course %}
-				<tr>
-					<td markdown="span">{{ teaching[key].year }}</td>
-					<td markdown="span">{{ teaching[key].pos }}</td>
-					<td markdown="span">{{ teaching[key].course }}</td>
-					<td markdown="span">{{ teaching[key].uni }}</td>
-				</tr>
-			{% endif %}
-		{% endfor %}
-	</tbody>
-</table>
+<div id="div_teaching">
+	<table>
+		<colgroup>
+			<col width="10%" style="min-width:80px;"/>
+			<col width="10%" style="min-width:80px;"/>
+			<col width="40%" style="min-width:250px;"/>
+			<col width="40%" style="min-width:250px;"/>
+		</colgroup>
+		<thead>
+			<tr class="header">
+				<th>Year</th>
+				<th>Position</th>
+				<th>Course</th>
+				<th>University</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for entry in teaching %}
+				{% assign key = entry | first %}
+				{% if teaching[key].course %}
+					<tr>
+						<td markdown="span">{{ teaching[key].year }}</td>
+						<td markdown="span">{{ teaching[key].pos }}</td>
+						<td markdown="span">{{ teaching[key].course }}</td>
+						<td markdown="span">{{ teaching[key].uni }}</td>
+					</tr>
+				{% endif %}
+			{% endfor %}
+		</tbody>
+	</table>
+</div">
 {% endif %}
