@@ -1,33 +1,35 @@
 {% if site.data.publications %}
 {% assign pub = site.data.publications %}
 ## List of works
-<table>
-	<colgroup>
-		<col width="10%" />
-		<col width="50%" />
-		<col width="15%" />
-		<col width="25%" />
-	</colgroup>
-	<thead>
-		<tr class="header">
-			<th>Year</th>
-			<th>Title</th>
-			<th>Venue</th>
-			<th>Authors</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for entry in pub %}
-			{% assign key = entry | first %}
-			{% if pub[key].title %}
-				<tr>
-					<td markdown="span" align=center>{{ pub[key].year }}</td>
-					<td markdown="span">{{ pub[key].title }}</td>
-					<td markdown="span">{{ pub[key].conf }}</td>
-					<td markdown="span"><i>{{ pub[key].authors }}</i></td>
-				</tr>
-			{% endif %}
-		{% endfor %}
-	</tbody>
-</table>
+<div id="div_publications">
+	<table>
+		<colgroup>
+			<col width="10%" />
+			<col width="50%" />
+			<col width="15%" />
+			<col width="25%" />
+		</colgroup>
+		<thead>
+			<tr class="header">
+				<th>Year</th>
+				<th>Title</th>
+				<th>Venue</th>
+				<th>Authors</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for entry in pub %}
+				{% assign key = entry | first %}
+				{% if pub[key].title %}
+					<tr>
+						<td markdown="span" align=center>{{ pub[key].year }}</td>
+						<td markdown="span">{{ pub[key].title }}</td>
+						<td markdown="span">{{ pub[key].conf }}</td>
+						<td markdown="span"><i>{{ pub[key].authors }}</i></td>
+					</tr>
+				{% endif %}
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
 {% endif %}
