@@ -10,7 +10,7 @@
   authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2021'
   url: 'google.com'
-  conf: "HotNets"
+  conf: "ACM HotNets"
 
 3:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
@@ -24,7 +24,7 @@
   authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
   year: '2019'
   url: 'google.com'
-  conf: "EuroP4"
+  conf: "IEEE EuroP4"
 
 5:
   title: 'Towards Machine Learning Inference in the Data Plane'
