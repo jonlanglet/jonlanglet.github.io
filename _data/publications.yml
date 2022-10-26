@@ -3,7 +3,7 @@
   authors: 'S. K. Singh, C. E. Rothenberg, <b>J. Langlet</b>, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
   year: '2022'
   url: 'google.com'
-  conf: "IEEE Transactions on Mobile Computing"
+  conf: "IEEE TMC"
 
 2:
   title: 'Zero-CPU Collection with Direct Telemetry Access'
