@@ -40,10 +40,18 @@
 	}
 }
 
-
-#div_publications {
+.div_scrollable_table {
 	overflow-x: scroll;
 }
-#div_teaching {
-	overflow-x: scroll;
+.tab_scrollable {
+	border-spacing: 0px;
+}
+
+.tab_scrollable tr:nth-child(even){
+	background-color: #f0f0f0;  
+}
+
+.tab_scrollable tr:hover{
+  background-color: #dddddd;
+  color: #000000;
 }
