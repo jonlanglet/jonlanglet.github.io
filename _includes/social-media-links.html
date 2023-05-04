@@ -4,7 +4,7 @@
 	{% for entry in sm %}
 		{% assign key = entry | first %}
 		{% if sm[key].id %}
-			{% if sm[key].href == "mailto" %}
+			{% if sm[key].href == "mailto:" %}
 				<a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" onmouseover="this.href=this.href.replace('@@','.')"><i class="{{ sm[key].fa-icon}}" style="font-size:32px"></i></a>
 			{% else %}
 				<a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="{{ sm[key].fa-icon}}" style="font-size:32px"></i></a>
