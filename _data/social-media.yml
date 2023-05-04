@@ -1,5 +1,5 @@
 email:
-  id: 'jonatan##langlet££io' #     '##': '@', '££': '.'
+  id: 'jonatan##langlet::io' #     '##': '@', '::': '.'
   href: 'mailto:'
   title: 'Email'
   fa-icon: 'fas fa-envelope-square'
