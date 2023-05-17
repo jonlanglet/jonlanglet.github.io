@@ -1,32 +1,39 @@
 1:
+  title: 'Direct Telemetry Access'
+  authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
+  year: '2023'
+  url: 'google.com'
+  conf: "SIGCOMM"
+
+2:
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
   authors: 'S. K. Singh, C. E. Rothenberg, <b>J. Langlet</b>, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
   year: '2022'
   url: 'google.com'
   conf: "IEEE TMC"
 
-2:
+3:
   title: 'Zero-CPU Collection with Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2021'
   url: 'google.com'
   conf: "ACM HotNets"
 
-3:
+4:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
   authors: '<b>J. Langlet</b>'
   year: '2020'
   url: 'google.com'
   conf: "Thesis"
   
-4:
+5:
   title: 'Towards Neural Network Inference on Programmable Switches'
   authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
   year: '2019'
   url: 'google.com'
   conf: "IEEE EuroP4"
 
-5:
+6:
   title: 'Towards Machine Learning Inference in the Data Plane'
   authors: '<b>J. Langlet</b>'
   year: '2019'
