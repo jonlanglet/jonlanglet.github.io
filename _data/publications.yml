@@ -3,7 +3,7 @@
   authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2023'
   url: 'google.com'
-  conf: "SIGCOMM"
+  conf: "ACM SIGCOMM"
 
 2:
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
