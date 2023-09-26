@@ -1,6 +1,6 @@
 1:
   title: 'Lightweight Acquisition and Ranging of Flows in the Data Plane'
-  authors: 'A. Monterubbiano, <b>J. Langlet</b>t, S. Walzer, G. Antichi, P. Vasallo, S. Pontarelli'
+  authors: 'A. Monterubbiano, <b>J. Langlet</b>, S. Walzer, G. Antichi, P. Vasallo, S. Pontarelli'
   year: '2023'
   url: 'google.com'
   conf: "ACM SIGMETRICS"
