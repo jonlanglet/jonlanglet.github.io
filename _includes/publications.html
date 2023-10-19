@@ -4,8 +4,8 @@
 <div class="div_scrollable_table">
 	<table class="tab_scrollable">
 		<colgroup>
-			<col width="16%" style="min-width:100px;"/>
-			<col width="6%" style="min-width:70px;"/>
+			<col width="17%" style="min-width:100px;"/>
+			<col width="5%" style="min-width:70px;"/>
 			<col width="53%" style="min-width:300px;"/>
 			<col width="25%" style="min-width:200px;"/>
 		</colgroup>
@@ -22,7 +22,7 @@
 				{% assign key = entry | first %}
 				{% if pub[key].title %}
 					<tr>
-						<td markdown="span">{{ pub[key].conf }}</td>
+						<td markdown="span"><b>{{ pub[key].conf }}</b></td>
 						<td markdown="span" align=center>{{ pub[key].year }}</td>
 						<td markdown="span">{{ pub[key].title }}</td>
 						<td markdown="span"><i>{{ pub[key].authors }}</i></td>
