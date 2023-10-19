@@ -10,40 +10,46 @@
   title: 'Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2023'
-  url: 'google.com'
+  url: 'https://dl.acm.org/doi/abs/10.1145/3603269.3604827'
+  filename: 'DTA_SIGCOMM.pdf'
   conf: "ACM SIGCOMM"
 
 3:
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
   authors: 'S. K. Singh, C. E. Rothenberg, <b>J. Langlet</b>, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
   year: '2022'
-  url: 'google.com'
+  url: 'https://ieeexplore.ieee.org/abstract/document/9866881'
+  filename: 'gNodeB_TMC.pdf'
   conf: "IEEE TMC"
 
 4:
   title: 'Zero-CPU Collection with Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2021'
-  url: 'google.com'
+  url: 'https://dl.acm.org/doi/abs/10.1145/3484266.3487366'
+  filename: 'DART_HotNets.pdf'
   conf: "ACM HotNets"
 
 5:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
   authors: '<b>J. Langlet</b>'
   year: '2020'
-  url: 'google.com'
+  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1453437&dswid=-282'
+  filename: 'Thesis_MSc.pdf'
   conf: "Thesis"
   
 6:
   title: 'Towards Neural Network Inference on Programmable Switches'
   authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
   year: '2019'
-  url: 'google.com'
+  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1420746&dswid=9388'
+  filename: 'P4NN_EuroP4.pdf'
   conf: "IEEE EuroP4"
 
 7:
   title: 'Towards Machine Learning Inference in the Data Plane'
   authors: '<b>J. Langlet</b>'
   year: '2019'
-  url: 'google.com'
+  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1328601&dswid=-6728'
+  filename: 'Thesis_BSc.pdf'
   conf: "Thesis"

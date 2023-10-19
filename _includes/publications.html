@@ -22,7 +22,7 @@
 				{% assign key = entry | first %}
 				{% if pub[key].title %}
 					<tr>
-						<td markdown="span"><b>{{ pub[key].conf }}</b></td>
+						<td markdown="span"><a href="{{ pub[key].url }}"><b>{{ pub[key].conf }}</b></a></td>
 						<td markdown="span" align=center>{{ pub[key].year }}</td>
 						<td markdown="span">{{ pub[key].title }}</td>
 						<td markdown="span"><i>{{ pub[key].authors }}</i></td>
