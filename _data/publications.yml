@@ -36,7 +36,7 @@
   year: '2020'
   url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1453437&dswid=-282'
   filename: 'Thesis_MSc.pdf'
-  conf: "Thesis"
+  conf: "MSc. Thesis"
   
 6:
   title: 'Towards Neural Network Inference on Programmable Switches'
@@ -52,4 +52,4 @@
   year: '2019'
   url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1328601&dswid=-6728'
   filename: 'Thesis_BSc.pdf'
-  conf: "Thesis"
+  conf: "BSc. Thesis"
