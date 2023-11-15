@@ -5,14 +5,14 @@
 	<table class="tab_scrollable">
 		<colgroup>
 			<col width="20%" style="min-width:60px;"/>
-			<col width="40%" style="min-width:200px;"/>
-			<col width="40%" style="min-width:200px;"/>
+			<col width="25%" style="min-width:150px;"/>
+			<col width="55%" style="min-width:300px;"/>
 		</colgroup>
 		<thead>
 			<tr class="header">
 				<th>Year</th>
-				<th>Venue</th>
 				<th>Role</th>
+				<th>Venue</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -21,8 +21,8 @@
 				{% if communitywork[key].venue %}
 					<tr>
 						<td markdown="span">{{ communitywork[key].year }}</td>
-						<td markdown="span">{{ communitywork[key].venue }}</td>
 						<td markdown="span">{{ communitywork[key].role }}</td>
+						<td markdown="span">{{ communitywork[key].venue }}</td>
 					</tr>
 				{% endif %}
 			{% endfor %}
