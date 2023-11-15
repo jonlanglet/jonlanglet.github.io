@@ -1,0 +1,32 @@
+{% if site.data.teaching %}
+{% assign teaching = site.data.teaching %}
+## Community Work
+<div class="div_scrollable_table">
+	<table class="tab_scrollable">
+		<colgroup>
+			<col width="20%" style="min-width:60px;"/>
+			<col width="40%" style="min-width:200px;"/>
+			<col width="40%" style="min-width:200px;"/>
+		</colgroup>
+		<thead>
+			<tr class="header">
+				<th>Year</th>
+				<th>Venue</th>
+				<th>Role</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for entry in communitywork %}
+				{% assign key = entry | first %}
+				{% if communitywork[key].venue %}
+					<tr>
+						<td markdown="span">{{ communitywork[key].year }}</td>
+						<td markdown="span">{{ communitywork[key].venue }}</td>
+						<td markdown="span">{{ communitywork[key].role }}</td>
+					</tr>
+				{% endif %}
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+{% endif %}

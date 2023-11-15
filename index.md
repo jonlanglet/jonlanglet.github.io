@@ -7,4 +7,6 @@ title: Home
 <hr>
 {% include publications.html %}
 <hr>
+{% include communitywork.html %}
+<hr>
 {% include teaching.html %}
