@@ -1,15 +1,15 @@
 1:
+  venue: 'ACM CoNEXT'
+  year: '2024'
+  role: 'External Reviewer'
+
+2:
   venue: 'IEEE/ACM Transactions on Networking'
   year: '2023 -'
   role: 'Reviewer'
   
-2:
+3:
   venue: 'IEEE Transactions on Network and Service Management'
   year: '2023 -'
   role: 'Reviewer'
-
-3:
-  venue: 'ACM CoNEXT'
-  year: '2024'
-  role: 'External Reviewer'
 
