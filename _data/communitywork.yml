@@ -1,15 +1,20 @@
 1:
+  venue: 'TMA Conference'
+  year: '2025'
+  role: 'TPC Member'
+  
+2:
   venue: 'ACM CoNEXT'
   year: '2024'
   role: 'External Reviewer'
 
-2:
+3:
   venue: 'IEEE/ACM Transactions on Networking'
   year: '2023 -'
-  role: 'Reviewer'
+  role: 'Invited Reviewer'
   
-3:
+4:
   venue: 'IEEE Transactions on Network and Service Management'
   year: '2023 -'
-  role: 'Reviewer'
+  role: 'Invited Reviewer'
 
