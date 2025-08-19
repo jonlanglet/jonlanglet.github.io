@@ -1,4 +1,12 @@
 1:
+  title: 'Spatiotemporal Sketch Disaggregation: Streaming Analytics with Heterogeneous Resources'
+  authors: '<b>J. Langlet</b>, P. Chen, M. Mitzenmacher, Z. Liu, R. B. Basat, G. Antichi'
+  year: '2025'
+  url: 'https://arxiv.org/abs/2503.13515'
+  filename: 'DiSketch.pdf'
+  conf: "Preprint"
+  
+2:
   title: 'Telemetry for Next-Generation Networks'
   authors: '<b>J. Langlet</b>'
   year: '2024'
@@ -6,7 +14,7 @@
   filename: 'Thesis_PhD.pdf'
   conf: "PhD. Thesis"
 
-2:
+3:
   title: 'Lightweight Acquisition and Ranging of Flows in the Data Plane'
   authors: 'A. Monterubbiano, <b>J. Langlet</b>, S. Walzer, G. Antichi, P. Reviriego, S. Pontarelli'
   year: '2024'
@@ -14,7 +22,7 @@
   filename: 'FlowLIDAR_SIGMETRICS.pdf'
   conf: "ACM SIGMETRICS"
   
-3:
+4:
   title: 'Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2023'
@@ -22,7 +30,7 @@
   filename: 'DTA_SIGCOMM.pdf'
   conf: "ACM SIGCOMM"
 
-4:
+5:
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
   authors: 'S. K. Singh, C. E. Rothenberg, <b>J. Langlet</b>, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
   year: '2022'
@@ -30,7 +38,7 @@
   filename: 'gNodeB_TMC.pdf'
   conf: "IEEE TMC"
 
-5:
+6:
   title: 'Zero-CPU Collection with Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2021'
@@ -38,7 +46,7 @@
   filename: 'DART_HotNets.pdf'
   conf: "ACM HotNets"
 
-6:
+7:
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
   authors: '<b>J. Langlet</b>'
   year: '2020'
@@ -46,7 +54,7 @@
   filename: 'Thesis_MSc.pdf'
   conf: "MSc. Thesis"
   
-7:
+8:
   title: 'Towards Neural Network Inference on Programmable Switches'
   authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
   year: '2019'
@@ -54,7 +62,7 @@
   filename: 'P4NN_EuroP4.pdf'
   conf: "IEEE EuroP4"
 
-8:
+9:
   title: 'Towards Machine Learning Inference in the Data Plane'
   authors: '<b>J. Langlet</b>'
   year: '2019'
