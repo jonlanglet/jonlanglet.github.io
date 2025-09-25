@@ -1,4 +1,4 @@
--:
+-
   title: 'Towards Machine Learning Inference in the Data Plane'
   authors: '<b>J. Langlet</b>'
   year: '2019'
@@ -6,7 +6,7 @@
   filename: 'Thesis_BSc.pdf'
   conf: "BSc. Thesis"
 
--:
+-
   title: 'Towards Neural Network Inference on Programmable Switches'
   authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
   year: '2019'
@@ -14,7 +14,7 @@
   filename: 'P4NN_EuroP4.pdf'
   conf: "IEEE EuroP4"
 
--:
+-
   title: 'Offloading Virtual Network Functions - Hierarchical Approach'
   authors: '<b>J. Langlet</b>'
   year: '2020'
@@ -22,7 +22,7 @@
   filename: 'Thesis_MSc.pdf'
   conf: "MSc. Thesis"
 
--:
+-
   title: 'Zero-CPU Collection with Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2021'
@@ -30,7 +30,7 @@
   filename: 'DART_HotNets.pdf'
   conf: "ACM HotNets"
 
--:
+-
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
   authors: 'S. K. Singh, C. E. Rothenberg, <b>J. Langlet</b>, A. Kassler, P. Vörös, S. Laki, G. Pongrácz'
   year: '2022'
@@ -38,7 +38,7 @@
   filename: 'gNodeB_TMC.pdf'
   conf: "IEEE TMC"
 
--:
+-
   title: 'Direct Telemetry Access'
   authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
   year: '2023'
@@ -46,7 +46,7 @@
   filename: 'DTA_SIGCOMM.pdf'
   conf: "ACM SIGCOMM"
 
--:
+-
   title: 'Lightweight Acquisition and Ranging of Flows in the Data Plane'
   authors: 'A. Monterubbiano, <b>J. Langlet</b>, S. Walzer, G. Antichi, P. Reviriego, S. Pontarelli'
   year: '2024'
@@ -54,7 +54,7 @@
   filename: 'FlowLIDAR_SIGMETRICS.pdf'
   conf: "ACM SIGMETRICS"
 
--:
+-
   title: 'Telemetry for Next-Generation Networks'
   authors: '<b>J. Langlet</b>'
   year: '2024'
@@ -62,7 +62,7 @@
   filename: 'Thesis_PhD.pdf'
   conf: "PhD. Thesis"
 
--:
+-
   title: 'Spatiotemporal Sketch Disaggregation: Streaming Analytics with Heterogeneous Resources'
   authors: '<b>J. Langlet</b>, P. Chen, M. Mitzenmacher, Z. Liu, R. B. Basat, G. Antichi'
   year: '2025'
@@ -70,7 +70,7 @@
   filename: 'DiSketch.pdf'
   conf: "Preprint"
 
--:
+-
   title: 'Can LLMs Forecast Internet Traffic from Social Media?'
   authors: '<b>J. Langlet</b>, M. Scazzariello, F. Luciani, M. Burocchi, D. Kostić, M. Chiesa'
   year: '2025'
