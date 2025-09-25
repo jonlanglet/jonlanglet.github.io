@@ -18,7 +18,7 @@
 			</tr>
 		</thead>
 		
-		{% assign pub_sorted = pub | sort: "first" | reverse %}
+		{% assign pub_sorted = pub | sort: "year" | reverse %}
 		<tbody>
 			{% for entry in pub_sorted %}
 				{% assign key = entry[0] %}
