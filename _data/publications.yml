@@ -1,34 +1,34 @@
 1:
-  title: 'Spatiotemporal Sketch Disaggregation: Streaming Analytics with Heterogeneous Resources'
-  authors: '<b>J. Langlet</b>, P. Chen, M. Mitzenmacher, Z. Liu, R. B. Basat, G. Antichi'
-  year: '2025'
-  url: 'https://arxiv.org/abs/2503.13515'
-  filename: 'DiSketch.pdf'
-  conf: "Preprint"
-  
-2:
-  title: 'Telemetry for Next-Generation Networks'
+  title: 'Towards Machine Learning Inference in the Data Plane'
   authors: '<b>J. Langlet</b>'
-  year: '2024'
-  url: 'https://qmro.qmul.ac.uk/xmlui/handle/123456789/98137'
-  filename: 'Thesis_PhD.pdf'
-  conf: "PhD. Thesis"
+  year: '2019'
+  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1328601&dswid=-6728'
+  filename: 'Thesis_BSc.pdf'
+  conf: "BSc. Thesis"
+
+2:
+  title: 'Towards Neural Network Inference on Programmable Switches'
+  authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
+  year: '2019'
+  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1420746&dswid=9388'
+  filename: 'P4NN_EuroP4.pdf'
+  conf: "IEEE EuroP4"
 
 3:
-  title: 'Lightweight Acquisition and Ranging of Flows in the Data Plane'
-  authors: 'A. Monterubbiano, <b>J. Langlet</b>, S. Walzer, G. Antichi, P. Reviriego, S. Pontarelli'
-  year: '2024'
-  url: 'https://dl.acm.org/doi/abs/10.1145/3626775'
-  filename: 'FlowLIDAR_SIGMETRICS.pdf'
-  conf: "ACM SIGMETRICS"
-  
+  title: 'Offloading Virtual Network Functions - Hierarchical Approach'
+  authors: '<b>J. Langlet</b>'
+  year: '2020'
+  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1453437&dswid=-282'
+  filename: 'Thesis_MSc.pdf'
+  conf: "MSc. Thesis"
+
 4:
-  title: 'Direct Telemetry Access'
-  authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
-  year: '2023'
-  url: 'https://dl.acm.org/doi/abs/10.1145/3603269.3604827'
-  filename: 'DTA_SIGCOMM.pdf'
-  conf: "ACM SIGCOMM"
+  title: 'Zero-CPU Collection with Direct Telemetry Access'
+  authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
+  year: '2021'
+  url: 'https://dl.acm.org/doi/abs/10.1145/3484266.3487366'
+  filename: 'DART_HotNets.pdf'
+  conf: "ACM HotNets"
 
 5:
   title: 'Hybrid P4 Programmable Pipelines for 5G gNodeB and User Plane Functions'
@@ -39,33 +39,33 @@
   conf: "IEEE TMC"
 
 6:
-  title: 'Zero-CPU Collection with Direct Telemetry Access'
-  authors: '<b>J. Langlet</b>, R. B. Basat, S. Ramanathan, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
-  year: '2021'
-  url: 'https://dl.acm.org/doi/abs/10.1145/3484266.3487366'
-  filename: 'DART_HotNets.pdf'
-  conf: "ACM HotNets"
+  title: 'Direct Telemetry Access'
+  authors: '<b>J. Langlet</b>, R. B. Basat, G. Oliaro, M. Mitzenmacher, M. Yu, G. Antichi'
+  year: '2023'
+  url: 'https://dl.acm.org/doi/abs/10.1145/3603269.3604827'
+  filename: 'DTA_SIGCOMM.pdf'
+  conf: "ACM SIGCOMM"
 
 7:
-  title: 'Offloading Virtual Network Functions - Hierarchical Approach'
-  authors: '<b>J. Langlet</b>'
-  year: '2020'
-  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1453437&dswid=-282'
-  filename: 'Thesis_MSc.pdf'
-  conf: "MSc. Thesis"
-  
+  title: 'Lightweight Acquisition and Ranging of Flows in the Data Plane'
+  authors: 'A. Monterubbiano, <b>J. Langlet</b>, S. Walzer, G. Antichi, P. Reviriego, S. Pontarelli'
+  year: '2024'
+  url: 'https://dl.acm.org/doi/abs/10.1145/3626775'
+  filename: 'FlowLIDAR_SIGMETRICS.pdf'
+  conf: "ACM SIGMETRICS"
+
 8:
-  title: 'Towards Neural Network Inference on Programmable Switches'
-  authors: '<b>J. Langlet</b>, A. Kassler, D. Bhamare'
-  year: '2019'
-  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1420746&dswid=9388'
-  filename: 'P4NN_EuroP4.pdf'
-  conf: "IEEE EuroP4"
+  title: 'Telemetry for Next-Generation Networks'
+  authors: '<b>J. Langlet</b>'
+  year: '2024'
+  url: 'https://qmro.qmul.ac.uk/xmlui/handle/123456789/98137'
+  filename: 'Thesis_PhD.pdf'
+  conf: "PhD. Thesis"
 
 9:
-  title: 'Towards Machine Learning Inference in the Data Plane'
-  authors: '<b>J. Langlet</b>'
-  year: '2019'
-  url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1328601&dswid=-6728'
-  filename: 'Thesis_BSc.pdf'
-  conf: "BSc. Thesis"
+  title: 'Spatiotemporal Sketch Disaggregation: Streaming Analytics with Heterogeneous Resources'
+  authors: '<b>J. Langlet</b>, P. Chen, M. Mitzenmacher, Z. Liu, R. B. Basat, G. Antichi'
+  year: '2025'
+  url: 'https://arxiv.org/abs/2503.13515'
+  filename: 'DiSketch.pdf'
+  conf: "Preprint"

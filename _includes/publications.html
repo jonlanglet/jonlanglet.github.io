@@ -17,9 +17,11 @@
 				<th>Authors</th>
 			</tr>
 		</thead>
+		
+		{% assign pub_sorted = pub | sort: "first" | reverse %}
 		<tbody>
-			{% for entry in pub %}
-				{% assign key = entry | first %}
+			{% for entry in pub_sorted %}
+				{% assign key = entry[0] %}
 				{% if pub[key].title %}
 					<tr>
 						<td markdown="span"><a href="{{ pub[key].url }}"><b>{{ pub[key].conf }}</b></a></td>
@@ -30,6 +32,7 @@
 				{% endif %}
 			{% endfor %}
 		</tbody>
+		
 	</table>
 </div>
 {% endif %}
