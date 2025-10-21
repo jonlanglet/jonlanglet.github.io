@@ -68,7 +68,7 @@
   year: '2025'
   url: 'https://arxiv.org/abs/2503.13515'
   filename: 'DiSketch.pdf'
-  conf: "Preprint"
+  conf: "IEEE ICDE"
 
 -
   title: 'Can LLMs Forecast Internet Traffic from Social Media?'
